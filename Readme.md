@@ -10,3 +10,8 @@
   - Resilience
 - Deployment
   - Deploy to private repo
+
+## API
+localhost/recipes-catalog
+localhost/recipe-detail/{id}
+localhost/recipe-rating/{id}
