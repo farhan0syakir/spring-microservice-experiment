@@ -15,3 +15,8 @@
 localhost/recipes-catalog
 localhost/recipe-detail/{id}
 localhost/recipe-rating/{id}
+
+## Steps
+1. Cloud-config-server?
+2. OpenFeign
+3. Eureka
