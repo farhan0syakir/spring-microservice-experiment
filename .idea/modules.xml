@@ -3,6 +3,8 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/recipe-detail.iml" filepath="$PROJECT_DIR$/.idea/modules/recipe-detail.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/recipe-detail.main.iml" filepath="$PROJECT_DIR$/.idea/modules/recipe-detail.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/recipe-detail.test.iml" filepath="$PROJECT_DIR$/.idea/modules/recipe-detail.test.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/spring-microservice-experiment.iml" filepath="$PROJECT_DIR$/.idea/spring-microservice-experiment.iml" />
     </modules>
   </component>
