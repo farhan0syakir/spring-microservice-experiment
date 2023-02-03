@@ -8,10 +8,15 @@ import org.springframework.web.bind.annotation.RestController;
 public class RecipeDetailController {
 
 	@GetMapping("recipe-detail/{id}")
-	public RecipeDetail getRecipeDetail(@PathVariable String id){
+	public RecipeDetail getRecipeDetail(@PathVariable String id) {
 		return RecipeDetail.builder()
 				.name("bakso")
 				.description("bakso gituloh")
 				.build();
+	}
+
+	@GetMapping("hello")
+	public String hello() {
+		return "greetings";
 	}
 }
