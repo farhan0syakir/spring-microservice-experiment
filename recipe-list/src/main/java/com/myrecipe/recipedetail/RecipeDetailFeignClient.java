@@ -8,12 +8,14 @@ import org.springframework.web.bind.annotation.RequestMethod;
 
 import java.util.List;
 
-@FeignClient(value = "jplaceholder", url = "https://jsonplaceholder.typicode.com/")
+@FeignClient(value = "my-recipe-detail")
 public interface  RecipeDetailFeignClient {
 
-	@RequestMapping(method = RequestMethod.GET, value = "/posts")
-	List<Post> getPosts();
-
-	@RequestMapping(method = RequestMethod.GET, value = "/posts/{postId}", produces = "application/json")
-	Post getPostById(@PathVariable("postId") Long postId);
+//	@RequestMapping(method = RequestMethod.GET, value = "/posts")
+//	List<Post> getPosts();
+//
+//	@RequestMapping(method = RequestMethod.GET, value = "/posts/{postId}", produces = "application/json")
+//	Post getPostById(@PathVariable("postId") Long postId);
+	@RequestMapping(method = RequestMethod.GET, value = "/hello")
+	String getHello();
 }

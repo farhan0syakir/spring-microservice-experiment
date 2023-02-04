@@ -15,7 +15,7 @@ public class RecipeListController {
 	RecipeDetailFeignClient recipeDetailFeignClient;
 
 	@GetMapping("recipe-list")
-	public List<Post> getRecipeDetail(){
-		return recipeDetailFeignClient.getPosts();
+	public String getRecipeDetail(){
+		return recipeDetailFeignClient.getHello();
 	}
 }
