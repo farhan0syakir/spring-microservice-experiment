@@ -20,3 +20,8 @@ localhost/recipe-rating/{id}
 1. Cloud-config-server?
 2. OpenFeign
 3. Eureka
+4. API gateway
+5. Circuit Breaker
+6. Rate Limiter
+7. Docker?
+8. Kubernetes?
